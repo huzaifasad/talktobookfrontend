@@ -1,7 +1,22 @@
+/* styles.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
 
 body {
   margin: 0;
